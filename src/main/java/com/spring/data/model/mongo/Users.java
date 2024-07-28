@@ -1,4 +1,4 @@
-package com.bezkoder.spring.data.mongodb.model;
+package com.spring.data.model.mongo;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Users {
     @Id
     private String id;
-
     private String firstName;
     private String lastName;
     private String email;
@@ -62,5 +61,4 @@ public class Users {
                 + password
                 + ", email = " + email + "] <= ||";
     }
-
 }
